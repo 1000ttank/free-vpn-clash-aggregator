@@ -4,6 +4,15 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
+- name: es|e379|puddincat07@Telegram
+  network: tcp
+  password: 2eutknankxtbgkwcajzt
+  port: '52794'
+  server: 193.148.19.213
+  skip-cert-verify: true
+  sni: 193.148.19.213
+  type: trojan
+  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -18,29 +27,12 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- name: es|e379|puddincat07@Telegram
-  network: tcp
-  password: 2eutknankxtbgkwcajzt
-  port: '52794'
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-  udp: true
 - name: xx|6cf2|puddincat07@Telegram
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: '20041'
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   type: trojan
-  udp: true
-- name: xx|c44f|puddincat07@Telegram
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
-  skip-cert-verify: true
-  sni: de-two.quiet-rogue.site
-  type: hysteria2
   udp: true
 - name: xx|ef9a|puddincat07@Telegram
   obfs: salamander
@@ -52,14 +44,12 @@ proxies:
   sni: musicclips.videolinks.ru
   type: hysteria2
   udp: true
-- name: nl|7363|puddincat07@Telegram
-  password: gf1:gfhysteria2024
+- cipher: aes-256-cfb
+  name: se|8c7d|puddincat07@Telegram
+  password: amazonskr05
   port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
-  udp: true
+  server: 13.50.4.72
+  type: ss
 - name: xx|304b|puddincat07@Telegram
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
@@ -69,22 +59,16 @@ proxies:
   type: hysteria2
   udp: true
 - cipher: aes-256-cfb
-  name: se|8c7d|puddincat07@Telegram
+  name: us|95ff|puddincat07@Telegram
   password: amazonskr05
   port: 443
-  server: 13.50.4.72
+  server: 98.89.48.191
   type: ss
 - cipher: aes-256-cfb
   name: jp|6953|puddincat07@Telegram
   password: amazonskr05
   port: 443
   server: 13.114.17.103
-  type: ss
-- cipher: aes-256-cfb
-  name: us|95ff|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 98.89.48.191
   type: ss
 - alterId: 2
   cipher: auto
@@ -107,6 +91,19 @@ proxies:
   uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
   ws-opts:
     path: /
+- name: us|3fe0|puddincat07@Telegram
+  network: ws
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cmee.ezbiz.dynv6.net
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: gb|99d3|puddincat07@Telegram
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -114,27 +111,31 @@ proxies:
   server: 82.38.31.2
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: xx|5432|puddincat07@Telegram
-  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
-  port: 36018
-  server: 8h2k03.a3b5wy.xyz
+  name: nl|42be|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.151
   type: ss
-  udp: true
-- name: xx|64ad|puddincat07@Telegram
-  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
-  port: 36868
-  server: 2t1u01.a3b5wy.xyz
+- name: nl|7363|puddincat07@Telegram
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
   skip-cert-verify: true
-  sni: tr01.abpilot.xyz
-  type: trojan
+  sni: www.linux.com
+  type: hysteria2
   udp: true
-- cipher: aes-256-gcm
-  name: us|c65d|puddincat07@Telegram
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.75.137.93
+- cipher: aes-256-cfb
+  name: de|27a4|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
   type: ss
-  udp: true
+- cipher: aes-128-gcm
+  name: us|675b|puddincat07@Telegram
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
+  type: ss
 - name: hysteria2-328918459
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
@@ -1730,6 +1731,13 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: hysteria2
+- name: hysteria2-280054076
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
+  skip-cert-verify: true
+  sni: de-two.quiet-rogue.site
+  type: hysteria2
 - name: hysteria2-280054101
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4466
@@ -1819,13 +1827,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 156.146.38.170
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: shadowsocks-194
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2666,13 +2667,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-184
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.151
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -3885,6 +3879,14 @@ proxies:
   sni: uncommon-feline.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-268441793
+  password: ND91608427
+  port: 443
+  server: 43.201.56.44
+  skip-cert-verify: false
+  sni: distinct-llama.rooster465.autos
+  type: trojan
+  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -3892,22 +3894,22 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - de|8097|puddincat07@Telegram
   - es|e379|puddincat07@Telegram
+  - de|8097|puddincat07@Telegram
   - xx|6cf2|puddincat07@Telegram
-  - xx|c44f|puddincat07@Telegram
   - xx|ef9a|puddincat07@Telegram
-  - nl|7363|puddincat07@Telegram
-  - xx|304b|puddincat07@Telegram
   - se|8c7d|puddincat07@Telegram
-  - jp|6953|puddincat07@Telegram
+  - xx|304b|puddincat07@Telegram
   - us|95ff|puddincat07@Telegram
+  - jp|6953|puddincat07@Telegram
   - xx|8151|puddincat07@Telegram
   - us|d13a|puddincat07@Telegram
+  - us|3fe0|puddincat07@Telegram
   - gb|99d3|puddincat07@Telegram
-  - xx|5432|puddincat07@Telegram
-  - xx|64ad|puddincat07@Telegram
-  - us|c65d|puddincat07@Telegram
+  - nl|42be|puddincat07@Telegram
+  - nl|7363|puddincat07@Telegram
+  - de|27a4|puddincat07@Telegram
+  - us|675b|puddincat07@Telegram
   - hysteria2-328918459
   - hysteria2-330068376
   - hysteria2-331170962
@@ -4097,6 +4099,7 @@ proxy-groups:
   - hysteria2-197435869
   - hysteria2-71125758
   - hysteria2-197436120
+  - hysteria2-280054076
   - hysteria2-280054101
   - hysteria2-305203714
   - hysteria2-209378680
@@ -4110,7 +4113,6 @@ proxy-groups:
   - shadowsocks-156
   - shadowsocks-154
   - shadowsocks-159
-  - shadowsocks-194
   - shadowsocks-157
   - shadowsocks-163
   - shadowsocks-155
@@ -4231,7 +4233,6 @@ proxy-groups:
   - shadowsocks-126252
   - shadowsocks-56693562
   - shadowsocks-91981760
-  - shadowsocks-184
   - shadowsocks-125597
   - shadowsocks-258
   - shadowsocks-129825
@@ -4392,27 +4393,28 @@ proxy-groups:
   - trojan-268441801
   - trojan-269038530
   - trojan-264886091
+  - trojan-268441793
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
-  - de|8097|puddincat07@Telegram
   - es|e379|puddincat07@Telegram
+  - de|8097|puddincat07@Telegram
   - xx|6cf2|puddincat07@Telegram
-  - xx|c44f|puddincat07@Telegram
   - xx|ef9a|puddincat07@Telegram
-  - nl|7363|puddincat07@Telegram
-  - xx|304b|puddincat07@Telegram
   - se|8c7d|puddincat07@Telegram
-  - jp|6953|puddincat07@Telegram
+  - xx|304b|puddincat07@Telegram
   - us|95ff|puddincat07@Telegram
+  - jp|6953|puddincat07@Telegram
   - xx|8151|puddincat07@Telegram
   - us|d13a|puddincat07@Telegram
+  - us|3fe0|puddincat07@Telegram
   - gb|99d3|puddincat07@Telegram
-  - xx|5432|puddincat07@Telegram
-  - xx|64ad|puddincat07@Telegram
-  - us|c65d|puddincat07@Telegram
+  - nl|42be|puddincat07@Telegram
+  - nl|7363|puddincat07@Telegram
+  - de|27a4|puddincat07@Telegram
+  - us|675b|puddincat07@Telegram
   - hysteria2-328918459
   - hysteria2-330068376
   - hysteria2-331170962
@@ -4602,6 +4604,7 @@ proxy-groups:
   - hysteria2-197435869
   - hysteria2-71125758
   - hysteria2-197436120
+  - hysteria2-280054076
   - hysteria2-280054101
   - hysteria2-305203714
   - hysteria2-209378680
@@ -4615,7 +4618,6 @@ proxy-groups:
   - shadowsocks-156
   - shadowsocks-154
   - shadowsocks-159
-  - shadowsocks-194
   - shadowsocks-157
   - shadowsocks-163
   - shadowsocks-155
@@ -4736,7 +4738,6 @@ proxy-groups:
   - shadowsocks-126252
   - shadowsocks-56693562
   - shadowsocks-91981760
-  - shadowsocks-184
   - shadowsocks-125597
   - shadowsocks-258
   - shadowsocks-129825
@@ -4897,5 +4898,6 @@ proxy-groups:
   - trojan-268441801
   - trojan-269038530
   - trojan-264886091
+  - trojan-268441793
 rules:
 - MATCH,PROXY
