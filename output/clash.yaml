@@ -2223,6 +2223,13 @@ proxies:
   server: 149.22.87.241
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-212
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
+  type: ss
+  udp: true
 - cipher: aes-128-cfb
   name: shadowsocks-205
   password: shadowsocks
@@ -2284,6 +2291,13 @@ proxies:
   password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
   port: 50099
   server: 36.224.177.236
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-217
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.58.239
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -3408,20 +3422,20 @@ proxies:
   sni: definite-ladybird.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-325097933
+  password: MiTiVPN
+  port: 443
+  server: 104.254.140.62
+  skip-cert-verify: false
+  sni: ddp-mitivpn--mitivpn--mitivpn---mitivpn--mitivpn--mitivpn.kingnetwork.ir
+  type: trojan
+  udp: true
 - name: trojan-270681499
   password: ND91608427
   port: 443
   server: star-kiwi.rooster465.autos
   skip-cert-verify: false
   sni: star-kiwi.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-312437949
-  password: MiTiVPN
-  port: 443
-  server: 104.254.140.62
-  skip-cert-verify: false
-  sni: ddp-mehrosaboran--mehrosaboran--mehrosaboran.kingnetwork.ir
   type: trojan
   udp: true
 - name: trojan-305214712
@@ -3896,22 +3910,6 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: trojan-95305971
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
-  skip-cert-verify: true
-  sni: 139.59.238.97
-  type: trojan
-  udp: true
-- name: trojan-16147
-  password: humanity
-  port: 443
-  server: 104.17.121.9
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -4190,6 +4188,7 @@ proxy-groups:
   - shadowsocks-10989
   - shadowsocks-163
   - shadowsocks-211
+  - shadowsocks-212
   - shadowsocks-205
   - shadowsocks-156
   - shadowsocks-290610756
@@ -4199,6 +4198,7 @@ proxy-groups:
   - shadowsocks-234
   - shadowsocks-25267
   - shadowsocks-299806588
+  - shadowsocks-217
   - shadowsocks-286217972
   - shadowsocks-303
   - shadowsocks-254910437
@@ -4356,8 +4356,8 @@ proxy-groups:
   - trojan-279473303
   - trojan-288251428
   - trojan-270661236
+  - trojan-325097933
   - trojan-270681499
-  - trojan-312437949
   - trojan-305214712
   - trojan-264886092
   - trojan-283683740
@@ -4417,8 +4417,6 @@ proxy-groups:
   - trojan-2515929
   - trojan-89194153
   - trojan-326634752
-  - trojan-95305971
-  - trojan-16147
 - name: PROXY
   type: select
   proxies:
@@ -4695,6 +4693,7 @@ proxy-groups:
   - shadowsocks-10989
   - shadowsocks-163
   - shadowsocks-211
+  - shadowsocks-212
   - shadowsocks-205
   - shadowsocks-156
   - shadowsocks-290610756
@@ -4704,6 +4703,7 @@ proxy-groups:
   - shadowsocks-234
   - shadowsocks-25267
   - shadowsocks-299806588
+  - shadowsocks-217
   - shadowsocks-286217972
   - shadowsocks-303
   - shadowsocks-254910437
@@ -4861,8 +4861,8 @@ proxy-groups:
   - trojan-279473303
   - trojan-288251428
   - trojan-270661236
+  - trojan-325097933
   - trojan-270681499
-  - trojan-312437949
   - trojan-305214712
   - trojan-264886092
   - trojan-283683740
@@ -4922,7 +4922,5 @@ proxy-groups:
   - trojan-2515929
   - trojan-89194153
   - trojan-326634752
-  - trojan-95305971
-  - trojan-16147
 rules:
 - MATCH,PROXY
