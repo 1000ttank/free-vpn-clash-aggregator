@@ -977,6 +977,15 @@ proxies:
   type: vless
   udp: true
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- alterId: 0
+  cipher: auto
+  name: vmess-145117
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: trojan-290339795
   password: ND91608427
   port: 443
@@ -1414,6 +1423,24 @@ proxies:
   sni: relaxed-gull.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-285797946
+  password: MiTiVPN
+  port: 443
+  server: 104.254.140.62
+  skip-cert-verify: false
+  sni: ddp-mitivpn--mitivpn--mitivpn---mitivpn--mitivpn--mitivpn.kingnetwork.ir
+  type: trojan
+  udp: true
+- name: vless-332701866
+  network: tcp
+  port: 443
+  server: 84.32.186.166
+  servername: ddc-chr.astralweb.tech
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
 - name: vless-178016886
   network: ws
   port: 8880
@@ -1632,6 +1659,13 @@ proxies:
   server: 205.237.109.212
   skip-cert-verify: true
   sni: grape-turbo-fr.roxa.org
+  type: hysteria2
+- name: hysteria2-280054099
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.215
+  skip-cert-verify: true
+  sni: mercedes-grape.yyuyy.com
   type: hysteria2
 - name: hysteria2-310636726
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
@@ -3434,14 +3468,6 @@ proxies:
   sni: definite-ladybird.rooster465.autos
   type: trojan
   udp: true
-- name: trojan-325097933
-  password: MiTiVPN
-  port: 443
-  server: 104.254.140.62
-  skip-cert-verify: false
-  sni: ddp-mitivpn--mitivpn--mitivpn---mitivpn--mitivpn--mitivpn.kingnetwork.ir
-  type: trojan
-  udp: true
 - name: trojan-270681499
   password: ND91608427
   port: 443
@@ -3890,30 +3916,6 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: trojan-303521548
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.7
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
-  udp: true
-- name: trojan-2515929
-  password: humanity
-  port: 443
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-89194153
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -4034,6 +4036,7 @@ proxy-groups:
   - vless-143266893
   - vless-143265892
   - vless-189834220
+  - vmess-145117
   - trojan-290339795
   - trojan-257074104
   - trojan-257074100
@@ -4078,6 +4081,8 @@ proxy-groups:
   - trojan-269060747
   - trojan-269040539
   - trojan-257074116
+  - trojan-285797946
+  - vless-332701866
   - vless-178016886
   - vless-270698486
   - vless-290320184
@@ -4107,6 +4112,7 @@ proxy-groups:
   - hysteria2-200242608
   - hysteria2-305203719
   - hysteria2-157363869
+  - hysteria2-280054099
   - hysteria2-310636726
   - hysteria2-48396240
   - hysteria2-153592303
@@ -4361,7 +4367,6 @@ proxy-groups:
   - trojan-279473303
   - trojan-288251428
   - trojan-270661236
-  - trojan-325097933
   - trojan-270681499
   - trojan-305214712
   - trojan-264886092
@@ -4418,9 +4423,6 @@ proxy-groups:
   - trojan-16411
   - trojan-123134632
   - trojan-2513798
-  - trojan-303521548
-  - trojan-2515929
-  - trojan-89194153
 - name: PROXY
   type: select
   proxies:
@@ -4539,6 +4541,7 @@ proxy-groups:
   - vless-143266893
   - vless-143265892
   - vless-189834220
+  - vmess-145117
   - trojan-290339795
   - trojan-257074104
   - trojan-257074100
@@ -4583,6 +4586,8 @@ proxy-groups:
   - trojan-269060747
   - trojan-269040539
   - trojan-257074116
+  - trojan-285797946
+  - vless-332701866
   - vless-178016886
   - vless-270698486
   - vless-290320184
@@ -4612,6 +4617,7 @@ proxy-groups:
   - hysteria2-200242608
   - hysteria2-305203719
   - hysteria2-157363869
+  - hysteria2-280054099
   - hysteria2-310636726
   - hysteria2-48396240
   - hysteria2-153592303
@@ -4866,7 +4872,6 @@ proxy-groups:
   - trojan-279473303
   - trojan-288251428
   - trojan-270661236
-  - trojan-325097933
   - trojan-270681499
   - trojan-305214712
   - trojan-264886092
@@ -4923,8 +4928,5 @@ proxy-groups:
   - trojan-16411
   - trojan-123134632
   - trojan-2513798
-  - trojan-303521548
-  - trojan-2515929
-  - trojan-89194153
 rules:
 - MATCH,PROXY
