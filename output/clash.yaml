@@ -18,6 +18,14 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- cipher: chacha20-ietf-poly1305
+  name: xx|3f45|puddincat07@Telegram
+  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
+  port: 42982
+  server: autodiscover.fuzzyaytor.cyou
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - name: xx|ef9a|puddincat07@Telegram
   obfs: salamander
   obfs-password: 8zzng75tz4tf82pj
@@ -28,12 +36,6 @@ proxies:
   sni: musicclips.videolinks.ru
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: xx|3f45|puddincat07@Telegram
-  password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
-  port: 42982
-  server: autodiscover.fuzzyaytor.cyou
-  type: ss
 - name: nl|7363|puddincat07@Telegram
   password: gf1:gfhysteria2024
   port: 443
@@ -58,91 +60,90 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: gb|84ee|puddincat07@Telegram
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
-- name: cn|7117|puddincat07@Telegram
-  password: MyYoZhfX
-  port: 51003
-  server: 112.29.94.23
+- name: xx|ea51|puddincat07@Telegram
+  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
+  port: 36901
+  server: 2n8l01.a3b5wy.xyz
   skip-cert-verify: true
+  sni: nl01.abpilot.xyz
   type: trojan
   udp: true
-- name: xx|a401|puddincat07@Telegram
-  password: fc1e07b5-840b-4446-8232-94b0606f2e0d
-  port: 443
-  server: fr3-full.privateip.net
+- name: xx|e92f|puddincat07@Telegram
+  password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
+  port: 36864
+  server: 2h4u01.a3b5wy.xyz
   skip-cert-verify: true
+  sni: hu01.abpilot.xyz
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: hr|e117|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.60
+  type: ss
   udp: true
 - cipher: rc4-md5
-  name: cn|5759|puddincat07@Telegram
+  name: xx|48af|puddincat07@Telegram
   password: dbEcUJ
   port: 24603
-  server: 211.99.97.19
+  server: fr01.ktp.wtf
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: gb|ac7c|puddincat07@Telegram
+  password: mTypilmjidrr6dQYaOGHf7
+  port: 46130
+  server: 13.87.75.155
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: kr|0393|puddincat07@Telegram
-  password: qwerREWQ@@
-  port: 50942
-  server: 222.112.15.134
+  name: hr|e700|puddincat07@Telegram
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.184.61
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  name: us|3d51|puddincat07@Telegram
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: j3.pplo.online
-    mode: websocket
-    mux: false
-    path: ''
-    skip-cert-verify: true
-    tls: false
+- name: us|19f3|puddincat07@Telegram
+  network: ws
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 172.67.192.20
-  type: ss
+  server: 104.17.147.11
+  skip-cert-verify: true
+  sni: jobscareerfortoday.com
+  type: trojan
   udp: true
-- name: us|6e03|puddincat07@Telegram
-  password: 669d0ac7b5b64ebbb1abb75d5d540a5c
+  ws-opts:
+    headers:
+      Host: jobscareerfortoday.com
+    path: 6b777a91
+- name: us|9547|puddincat07@Telegram
+  network: ws
+  password: cb1f26aa437d4bfa9b841d28503ce8cc
   port: 443
-  server: 104.17.215.2
+  server: 104.16.159.2
   skip-cert-verify: true
   sni: jobscareerforstudent.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: sg|7985|puddincat07@Telegram
-  password: 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
-  port: 8388
-  server: 91.192.81.21
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: xx|c046|puddincat07@Telegram
-  password: dbEcUJ
-  port: 24603
-  server: sgp03.ktp.wtf
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: de|27a4|puddincat07@Telegram
-  password: amazonskr05
+  ws-opts:
+    headers:
+      Host: jobscareerforstudent.com
+    path: 6b777a91
+- name: xx|372f|puddincat07@Telegram
+  password: QV31589740
   port: 443
-  server: 63.180.254.10
-  type: ss
-- name: trojan-368605614
-  password: ND91608427
-  port: 443
-  server: 44.242.235.129
-  skip-cert-verify: false
-  sni: devoted-tapir.rooster465.autos
+  server: great-krill.rooster465.autos
+  skip-cert-verify: true
+  tls: false
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: gb|597e|puddincat07@Telegram
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.46
+  type: ss
 - name: hysteria2-370755716
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
   port: 4433
@@ -171,19 +172,20 @@ proxies:
   server: e3.cover20.ir
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-368728140
-  password: AsjCCe+gRStwtdAYCm0sWfpIImN7Enllf3UD2oNuIe4=
-  port: 51570
-  server: e1.cover20.ir
-  type: ss
-  udp: true
 - name: trojan-372803807
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
   skip-cert-verify: true
   sni: ''
+  type: trojan
+  udp: true
+- name: trojan-379133748
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - name: trojan-372933400
@@ -244,16 +246,20 @@ proxies:
   type: vless
   udp: true
   uuid: ed720ae2-e1ab-41d4-8c9c-ca9ab3cfee70
-- name: vless-368641930
-  network: ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-379140751
+  network: raw
   port: 443
-  server: cf-vless-4cf55824.aimall.fr
-  servername: ''
-  skip-cert-verify: false
+  reality-opts:
+    public-key: aGnuEqGr0P1reQd3FC-AvDppjiHZBH9itV33XDaKOg4
+    short-id: 53bf38279e382cb0
+  server: 157.245.97.66
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  uuid: 19001d44-63d4-496f-9a58-312a5d65668c
 - name: vless-376136739
   network: tcp
   port: 62145
@@ -395,6 +401,20 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-379189692
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: ff776ff77be48b88
+  server: 83.168.108.200
+  servername: pol3.freeinternat.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-372808806
@@ -739,6 +759,20 @@ proxies:
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: vless-379179826
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OECEXjkKytnmX6qxzAvC9tE9QAQqNuWRBblAmbRnYWY
+    short-id: fe2e437f64f2da7a
+  server: 95.85.224.14
+  servername: ign.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da679dcf-b250-453c-8627-0d434cd960aa
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: vless-372884002
   network: raw
   port: 443
@@ -896,6 +930,19 @@ proxies:
   type: vless
   udp: true
   uuid: '8033102198'
+- client-fingerprint: ios
+  name: vless-379170959
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo
+    short-id: '5030'
+  server: 213.136.92.67
+  servername: status.play.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: af348651-1624-4710-b55f-0307a22d891f
 - alterId: 0
   cipher: auto
   name: vmess-370806846
@@ -1076,6 +1123,19 @@ proxies:
   type: vless
   udp: true
   uuid: 0dc40f96-a2d1-4382-88b7-70ee01853229
+- client-fingerprint: firefox
+  name: vless-379145239
+  network: tcp
+  port: 55555
+  reality-opts:
+    public-key: O2bbfKBzFAKWuGpGOV8sy4-jtHWTqR-FmTytzi-4_FY
+    short-id: dcc923278ffdd028
+  server: 95.217.241.174
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35dd6ec8-acb7-44be-9cde-7f03c6b9ef5b
 - cipher: chacha20-ietf-poly1305
   name: shadowsocks-376105735
   password: LdJ+OdeFWmYni+NaduA4vXeGD8mRB2Ntencu11k+fjY=
@@ -1091,19 +1151,6 @@ proxies:
   sni: se-01.netzrun.at
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: vless-368701698
-  network: tcp
-  port: 3389
-  reality-opts:
-    public-key: NSlhQMA6VBgHPp7RsErk3hEdKuWPO0eeLdxgssfwbmY
-    short-id: 207e5f6d28592940
-  server: 104.105.203.252
-  servername: play.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-377163841
@@ -1229,6 +1276,19 @@ proxies:
   type: vless
   udp: true
   uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+- client-fingerprint: chrome
+  name: vless-379164386
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg
+    short-id: 91d568bc3b
+  server: 134.17.16.156
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8fab26eb-f2eb-4c10-a11d-f7e5202930e4
 - name: trojan-370766855
   password: SrELvzRC7y7gMcypgQ8VSSSxzj354XEf
   port: 5222
@@ -1481,6 +1541,16 @@ proxies:
   type: vless
   udp: true
   uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
+- name: vless-379149240
+  network: ws
+  port: 443
+  server: 104.26.15.137
+  servername: lucxi.lightorbitlab-kiloilm.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
 - client-fingerprint: firefox
   name: vless-370780845
   network: raw
@@ -1583,6 +1653,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9efe092e-e4ae-4601-bb89-169fcb3db39b
+- name: vless-379181826
+  network: raw
+  port: 12596
+  server: 193.134.100.23
+  type: vless
+  udp: true
+  uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
 - name: hysteria2-286217967
   password: STYyftThFn
   port: 12765
@@ -1681,12 +1758,12 @@ proxies:
   skip-cert-verify: true
   sni: https://t.me/oneclickvpnkeys
   type: hysteria2
-- name: hysteria2-5115797
+- name: hysteria2-379361869
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 47.129.9.33
   skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
+  sni: vk.com
   type: hysteria2
 - name: hysteria2-315405973
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -2186,17 +2263,17 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: shadowsocks-347614096
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: 36.224.162.2
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: shadowsocks-42869377
   password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
   port: 50099
   server: r3mrcg00129437x.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-347614096
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: 36.224.162.2
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2228,13 +2305,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: shadowsocks-2536938
-  password: bQZl7HDxSabr1FurTYQHFU
-  port: 443
-  server: 216.105.168.18
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: shadowsocks-332368651
   password: jiUTzfdPo7fW
   port: 42747
@@ -2260,13 +2330,6 @@ proxies:
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.0.177
-  type: ss
-  udp: true
-- cipher: 2022-blake3-aes-128-gcm
-  name: shadowsocks-335172078
-  password: 5jfrMoSGPSR1FqwTFtpc8g==
-  port: 23226
-  server: 47.88.85.254
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -2508,6 +2571,13 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: shadowsocks-293468269
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 152.70.53.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: shadowsocks-224639175
   password: EvLfWGe0AKvK
   port: 54166
@@ -2603,6 +2673,13 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-176
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3116,6 +3193,13 @@ proxies:
   server: 92.112.126.90
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-379361871
+  password: rSeYcig_XBy8q3k33NpK3A
+  port: 1080
+  server: 65.109.178.10
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: shadowsocks-126216
   password: g5MeD6Ft3CWlJId
@@ -3159,13 +3243,6 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: shadowsocks-360234355
-  password: OgwIA3nyxjYYOudO54puot
-  port: 10792
-  server: 130.49.189.158
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: shadowsocks-114874950
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -3184,13 +3261,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.215
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-360153942
-  password: LHZzf4y0j2WQlZsTh0NzPxVmTYufR-TA
-  port: 1080
-  server: sub.almavpn.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -3236,6 +3306,13 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
+  name: shadowsocks-379361870
+  password: NEABipz72YQc63mbzW8HoSlA2jO437TS95N4X6f2RbM=
+  port: 51570
+  server: e1.cover20.ir
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: shadowsocks-198822224
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
@@ -3254,13 +3331,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.174
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-49012021
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.46
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -4067,14 +4137,6 @@ proxies:
   sni: definite-malamute.rooster465.autos
   type: trojan
   udp: true
-- name: trojan-379133748
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: trojan-331180964
   password: ND91608427
   port: 443
@@ -4131,30 +4193,6 @@ proxies:
   sni: communal-sunbird.rooster465.autos
   type: trojan
   udp: true
-- name: trojan-2522801
-  password: r137979f
-  port: 2087
-  server: 162.159.153.212
-  skip-cert-verify: true
-  sni: sheleqaz.emotionreza.workers.dev
-  type: trojan
-  udp: true
-- name: trojan-266835594
-  password: ND91608427
-  port: 443
-  server: fleet-bonefish.rooster465.autos
-  skip-cert-verify: true
-  sni: fleet-bonefish.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-266835595
-  password: ND91608427
-  port: 443
-  server: pet-ghost.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
-  type: trojan
-  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -4163,34 +4201,33 @@ proxy-groups:
   tolerance: 50
   proxies:
   - de|8097|puddincat07@Telegram
-  - xx|ef9a|puddincat07@Telegram
   - xx|3f45|puddincat07@Telegram
+  - xx|ef9a|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
   - xx|bd39|puddincat07@Telegram
   - xx|8151|puddincat07@Telegram
-  - gb|84ee|puddincat07@Telegram
-  - cn|7117|puddincat07@Telegram
-  - xx|a401|puddincat07@Telegram
-  - cn|5759|puddincat07@Telegram
-  - kr|0393|puddincat07@Telegram
-  - us|3d51|puddincat07@Telegram
-  - us|6e03|puddincat07@Telegram
-  - sg|7985|puddincat07@Telegram
-  - xx|c046|puddincat07@Telegram
-  - de|27a4|puddincat07@Telegram
-  - trojan-368605614
+  - xx|ea51|puddincat07@Telegram
+  - xx|e92f|puddincat07@Telegram
+  - hr|e117|puddincat07@Telegram
+  - xx|48af|puddincat07@Telegram
+  - gb|ac7c|puddincat07@Telegram
+  - hr|e700|puddincat07@Telegram
+  - us|19f3|puddincat07@Telegram
+  - us|9547|puddincat07@Telegram
+  - xx|372f|puddincat07@Telegram
+  - gb|597e|puddincat07@Telegram
   - hysteria2-370755716
   - hysteria2-376104735
   - shadowsocks-370755727
   - shadowsocks-374912709
-  - shadowsocks-368728140
   - trojan-372803807
+  - trojan-379133748
   - trojan-372933400
   - trojan-376113735
   - vless-370783845
   - vless-370947052
   - vless-372891002
-  - vless-368641930
+  - vless-379140751
   - vless-376136739
   - vless-374966735
   - vmess-372899002
@@ -4205,6 +4242,7 @@ proxy-groups:
   - vless-376036526
   - vless-376036525
   - vless-376036524
+  - vless-379189692
   - vless-372808806
   - trojan-370824554
   - trojan-370825553
@@ -4237,6 +4275,7 @@ proxy-groups:
   - vless-370934052
   - vless-370724341
   - vless-370869052
+  - vless-379179826
   - vless-372884002
   - trojan-370824555
   - vless-374955869
@@ -4250,6 +4289,7 @@ proxy-groups:
   - vless-376134743
   - vless-370796845
   - vless-370872052
+  - vless-379170959
   - vmess-370806846
   - trojan-372933401
   - vless-377167828
@@ -4265,9 +4305,9 @@ proxy-groups:
   - vless-370905056
   - vless-372880002
   - vless-372864008
+  - vless-379145239
   - shadowsocks-376105735
   - trojan-372934402
-  - vless-368701698
   - vless-377163841
   - vless-376144748
   - vless-376134742
@@ -4278,6 +4318,7 @@ proxy-groups:
   - vless-370772845
   - vless-370790857
   - vless-370755708
+  - vless-379164386
   - trojan-370766855
   - vless-377161835
   - vless-377161837
@@ -4298,6 +4339,7 @@ proxy-groups:
   - vless-377163844
   - vless-370782847
   - vless-372885002
+  - vless-379149240
   - vless-370780845
   - vless-376137747
   - vless-370926052
@@ -4307,6 +4349,7 @@ proxy-groups:
   - vless-370771846
   - vless-377165826
   - vless-374945510
+  - vless-379181826
   - hysteria2-286217967
   - hysteria2-13527647
   - hysteria2-305203719
@@ -4321,7 +4364,7 @@ proxy-groups:
   - hysteria2-207301017
   - hysteria2-269050731
   - hysteria2-16610
-  - hysteria2-5115797
+  - hysteria2-379361869
   - hysteria2-315405973
   - hysteria2-232805107
   - hysteria2-48396256
@@ -4393,18 +4436,16 @@ proxy-groups:
   - shadowsocks-218
   - shadowsocks-213
   - shadowsocks-211
-  - shadowsocks-347614096
   - shadowsocks-42869377
+  - shadowsocks-347614096
   - shadowsocks-48398240
   - shadowsocks-289214843
   - shadowsocks-241
   - shadowsocks-299806588
-  - shadowsocks-2536938
   - shadowsocks-332368651
   - shadowsocks-335128325
   - shadowsocks-335068431
   - shadowsocks-157
-  - shadowsocks-335172078
   - shadowsocks-234
   - shadowsocks-154
   - shadowsocks-298
@@ -4439,6 +4480,7 @@ proxy-groups:
   - shadowsocks-166
   - shadowsocks-125598
   - shadowsocks-283
+  - shadowsocks-293468269
   - shadowsocks-224639175
   - shadowsocks-125602
   - shadowsocks-174
@@ -4453,6 +4495,7 @@ proxy-groups:
   - shadowsocks-168
   - shadowsocks-125944315
   - shadowsocks-11027
+  - shadowsocks-176
   - shadowsocks-212
   - shadowsocks-277388490
   - shadowsocks-129673
@@ -4526,27 +4569,26 @@ proxy-groups:
   - shadowsocks-276
   - shadowsocks-2149595
   - shadowsocks-19056434
+  - shadowsocks-379361871
   - shadowsocks-126216
   - shadowsocks-170
   - shadowsocks-158885953
   - shadowsocks-25076
   - shadowsocks-98971312
   - shadowsocks-11045
-  - shadowsocks-360234355
   - shadowsocks-114874950
   - shadowsocks-231
   - shadowsocks-11033
-  - shadowsocks-360153942
   - shadowsocks-166303196
   - shadowsocks-246
   - shadowsocks-236
   - shadowsocks-184
   - shadowsocks-290610756
   - shadowsocks-126340
+  - shadowsocks-379361870
   - shadowsocks-198822224
   - shadowsocks-27269
   - shadowsocks-83630747
-  - shadowsocks-49012021
   - shadowsocks-128223
   - shadowsocks-11023
   - shadowsocks-171
@@ -4651,7 +4693,6 @@ proxy-groups:
   - trojan-269060754
   - trojan-269060762
   - trojan-305213716
-  - trojan-379133748
   - trojan-331180964
   - trojan-305213714
   - trojan-260700828
@@ -4659,43 +4700,39 @@ proxy-groups:
   - trojan-269029145
   - trojan-198804551
   - trojan-266972501
-  - trojan-2522801
-  - trojan-266835594
-  - trojan-266835595
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
   - de|8097|puddincat07@Telegram
-  - xx|ef9a|puddincat07@Telegram
   - xx|3f45|puddincat07@Telegram
+  - xx|ef9a|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
   - xx|bd39|puddincat07@Telegram
   - xx|8151|puddincat07@Telegram
-  - gb|84ee|puddincat07@Telegram
-  - cn|7117|puddincat07@Telegram
-  - xx|a401|puddincat07@Telegram
-  - cn|5759|puddincat07@Telegram
-  - kr|0393|puddincat07@Telegram
-  - us|3d51|puddincat07@Telegram
-  - us|6e03|puddincat07@Telegram
-  - sg|7985|puddincat07@Telegram
-  - xx|c046|puddincat07@Telegram
-  - de|27a4|puddincat07@Telegram
-  - trojan-368605614
+  - xx|ea51|puddincat07@Telegram
+  - xx|e92f|puddincat07@Telegram
+  - hr|e117|puddincat07@Telegram
+  - xx|48af|puddincat07@Telegram
+  - gb|ac7c|puddincat07@Telegram
+  - hr|e700|puddincat07@Telegram
+  - us|19f3|puddincat07@Telegram
+  - us|9547|puddincat07@Telegram
+  - xx|372f|puddincat07@Telegram
+  - gb|597e|puddincat07@Telegram
   - hysteria2-370755716
   - hysteria2-376104735
   - shadowsocks-370755727
   - shadowsocks-374912709
-  - shadowsocks-368728140
   - trojan-372803807
+  - trojan-379133748
   - trojan-372933400
   - trojan-376113735
   - vless-370783845
   - vless-370947052
   - vless-372891002
-  - vless-368641930
+  - vless-379140751
   - vless-376136739
   - vless-374966735
   - vmess-372899002
@@ -4710,6 +4747,7 @@ proxy-groups:
   - vless-376036526
   - vless-376036525
   - vless-376036524
+  - vless-379189692
   - vless-372808806
   - trojan-370824554
   - trojan-370825553
@@ -4742,6 +4780,7 @@ proxy-groups:
   - vless-370934052
   - vless-370724341
   - vless-370869052
+  - vless-379179826
   - vless-372884002
   - trojan-370824555
   - vless-374955869
@@ -4755,6 +4794,7 @@ proxy-groups:
   - vless-376134743
   - vless-370796845
   - vless-370872052
+  - vless-379170959
   - vmess-370806846
   - trojan-372933401
   - vless-377167828
@@ -4770,9 +4810,9 @@ proxy-groups:
   - vless-370905056
   - vless-372880002
   - vless-372864008
+  - vless-379145239
   - shadowsocks-376105735
   - trojan-372934402
-  - vless-368701698
   - vless-377163841
   - vless-376144748
   - vless-376134742
@@ -4783,6 +4823,7 @@ proxy-groups:
   - vless-370772845
   - vless-370790857
   - vless-370755708
+  - vless-379164386
   - trojan-370766855
   - vless-377161835
   - vless-377161837
@@ -4803,6 +4844,7 @@ proxy-groups:
   - vless-377163844
   - vless-370782847
   - vless-372885002
+  - vless-379149240
   - vless-370780845
   - vless-376137747
   - vless-370926052
@@ -4812,6 +4854,7 @@ proxy-groups:
   - vless-370771846
   - vless-377165826
   - vless-374945510
+  - vless-379181826
   - hysteria2-286217967
   - hysteria2-13527647
   - hysteria2-305203719
@@ -4826,7 +4869,7 @@ proxy-groups:
   - hysteria2-207301017
   - hysteria2-269050731
   - hysteria2-16610
-  - hysteria2-5115797
+  - hysteria2-379361869
   - hysteria2-315405973
   - hysteria2-232805107
   - hysteria2-48396256
@@ -4898,18 +4941,16 @@ proxy-groups:
   - shadowsocks-218
   - shadowsocks-213
   - shadowsocks-211
-  - shadowsocks-347614096
   - shadowsocks-42869377
+  - shadowsocks-347614096
   - shadowsocks-48398240
   - shadowsocks-289214843
   - shadowsocks-241
   - shadowsocks-299806588
-  - shadowsocks-2536938
   - shadowsocks-332368651
   - shadowsocks-335128325
   - shadowsocks-335068431
   - shadowsocks-157
-  - shadowsocks-335172078
   - shadowsocks-234
   - shadowsocks-154
   - shadowsocks-298
@@ -4944,6 +4985,7 @@ proxy-groups:
   - shadowsocks-166
   - shadowsocks-125598
   - shadowsocks-283
+  - shadowsocks-293468269
   - shadowsocks-224639175
   - shadowsocks-125602
   - shadowsocks-174
@@ -4958,6 +5000,7 @@ proxy-groups:
   - shadowsocks-168
   - shadowsocks-125944315
   - shadowsocks-11027
+  - shadowsocks-176
   - shadowsocks-212
   - shadowsocks-277388490
   - shadowsocks-129673
@@ -5031,27 +5074,26 @@ proxy-groups:
   - shadowsocks-276
   - shadowsocks-2149595
   - shadowsocks-19056434
+  - shadowsocks-379361871
   - shadowsocks-126216
   - shadowsocks-170
   - shadowsocks-158885953
   - shadowsocks-25076
   - shadowsocks-98971312
   - shadowsocks-11045
-  - shadowsocks-360234355
   - shadowsocks-114874950
   - shadowsocks-231
   - shadowsocks-11033
-  - shadowsocks-360153942
   - shadowsocks-166303196
   - shadowsocks-246
   - shadowsocks-236
   - shadowsocks-184
   - shadowsocks-290610756
   - shadowsocks-126340
+  - shadowsocks-379361870
   - shadowsocks-198822224
   - shadowsocks-27269
   - shadowsocks-83630747
-  - shadowsocks-49012021
   - shadowsocks-128223
   - shadowsocks-11023
   - shadowsocks-171
@@ -5156,7 +5198,6 @@ proxy-groups:
   - trojan-269060754
   - trojan-269060762
   - trojan-305213716
-  - trojan-379133748
   - trojan-331180964
   - trojan-305213714
   - trojan-260700828
@@ -5164,8 +5205,5 @@ proxy-groups:
   - trojan-269029145
   - trojan-198804551
   - trojan-266972501
-  - trojan-2522801
-  - trojan-266835594
-  - trojan-266835595
 rules:
 - MATCH,PROXY
