@@ -13,12 +13,6 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: xx|5587|puddincat07@Telegram
-  password: FH72359861
-  port: 443
-  server: apt-whippet.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
 - client-fingerprint: chrome
   name: xx|0447|puddincat07@Telegram
   network: tcp
@@ -28,33 +22,11 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: xx|0c10|puddincat07@Telegram
+- name: xx|5587|puddincat07@Telegram
   password: FH72359861
   port: 443
-  server: massive-ocelot.rooster465.autos
+  server: apt-whippet.rooster465.autos
   skip-cert-verify: false
-  type: trojan
-- name: xx|5a6b|puddincat07@Telegram
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: xx|a1a1|puddincat07@Telegram
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: charming-puma.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: xx|fbc3|puddincat07@Telegram
-  password: FH72359861
-  port: 443
-  server: closing-falcon.rooster465.autos
-  skip-cert-verify: true
   type: trojan
 - client-fingerprint: chrome
   name: xx|d77e|puddincat07@Telegram
@@ -65,12 +37,40 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
+- name: xx|5a6b|puddincat07@Telegram
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: xx|0c10|puddincat07@Telegram
+  password: FH72359861
+  port: 443
+  server: massive-ocelot.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: xx|fbc3|puddincat07@Telegram
+  password: FH72359861
+  port: 443
+  server: closing-falcon.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
 - client-fingerprint: chrome
   name: xx|ccc4|puddincat07@Telegram
   network: tcp
   password: FH72359861
   port: '443'
   server: good-hound.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: xx|a1a1|puddincat07@Telegram
+  network: tcp
+  password: FH72359861
+  port: '443'
+  server: charming-puma.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
@@ -92,6 +92,14 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
+- name: nl|7363|puddincat07@Telegram
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 5.129.235.85
+  skip-cert-verify: true
+  sni: www.linux.com
+  type: hysteria2
+  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -106,14 +114,21 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- name: nl|7363|puddincat07@Telegram
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
-  skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
+- client-fingerprint: chrome
+  name: us|2220|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   name: us|b395|puddincat07@Telegram
   network: ws
@@ -130,34 +145,19 @@ proxies:
         Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: us|cc28|puddincat07@Telegram
+  name: xx|c122|puddincat07@Telegram
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.152.246
+  server: www.speedtest.org
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|9f71|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /assignment
 - alterId: 0
   cipher: auto
@@ -4010,21 +4010,21 @@ proxy-groups:
   tolerance: 50
   proxies:
   - xx|ca33|puddincat07@Telegram
-  - xx|5587|puddincat07@Telegram
   - xx|0447|puddincat07@Telegram
-  - xx|0c10|puddincat07@Telegram
-  - xx|5a6b|puddincat07@Telegram
-  - xx|a1a1|puddincat07@Telegram
-  - xx|fbc3|puddincat07@Telegram
+  - xx|5587|puddincat07@Telegram
   - xx|d77e|puddincat07@Telegram
+  - xx|5a6b|puddincat07@Telegram
+  - xx|0c10|puddincat07@Telegram
+  - xx|fbc3|puddincat07@Telegram
   - xx|ccc4|puddincat07@Telegram
+  - xx|a1a1|puddincat07@Telegram
   - xx|508c|puddincat07@Telegram
   - xx|4840|puddincat07@Telegram
-  - de|8097|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
+  - de|8097|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|b395|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|9f71|puddincat07@Telegram
+  - xx|c122|puddincat07@Telegram
   - vmess-490224166
   - trojan-490358409
   - trojan-490358406
@@ -4515,21 +4515,21 @@ proxy-groups:
   - AUTO
   - DIRECT
   - xx|ca33|puddincat07@Telegram
-  - xx|5587|puddincat07@Telegram
   - xx|0447|puddincat07@Telegram
-  - xx|0c10|puddincat07@Telegram
-  - xx|5a6b|puddincat07@Telegram
-  - xx|a1a1|puddincat07@Telegram
-  - xx|fbc3|puddincat07@Telegram
+  - xx|5587|puddincat07@Telegram
   - xx|d77e|puddincat07@Telegram
+  - xx|5a6b|puddincat07@Telegram
+  - xx|0c10|puddincat07@Telegram
+  - xx|fbc3|puddincat07@Telegram
   - xx|ccc4|puddincat07@Telegram
+  - xx|a1a1|puddincat07@Telegram
   - xx|508c|puddincat07@Telegram
   - xx|4840|puddincat07@Telegram
-  - de|8097|puddincat07@Telegram
   - nl|7363|puddincat07@Telegram
+  - de|8097|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|b395|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - us|9f71|puddincat07@Telegram
+  - xx|c122|puddincat07@Telegram
   - vmess-490224166
   - trojan-490358409
   - trojan-490358406
