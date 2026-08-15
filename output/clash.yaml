@@ -4,6 +4,50 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: de|8097|puddincat07@Telegram
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- client-fingerprint: chrome
+  name: us|b84c|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|9f71|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
 - client-fingerprint: chrome
   name: us|f508|puddincat07@Telegram
   network: ws
@@ -18,6 +62,70 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
         (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: us|2a14|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: xx|c122|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|b395|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|4896|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.44
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: us|b3d2|puddincat07@Telegram
@@ -34,20 +142,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /assignment
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: de|8097|puddincat07@Telegram
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - client-fingerprint: chrome
   name: us|cc28|puddincat07@Telegram
   network: ws
@@ -93,40 +187,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: us|2a14|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.221.242
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: xx|c122|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
 - client-fingerprint: chrome
   name: us|9165|puddincat07@Telegram
   network: ws
@@ -143,66 +203,6 @@ proxies:
         Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: us|4896|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|9f71|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|b395|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|b84c|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.6
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
   name: xx|8008|puddincat07@Telegram
   network: ws
   password: humanity
@@ -216,27 +216,23 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /assignment
-- name: nl|7363|puddincat07@Telegram
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 5.129.235.85
+- alterId: 0
+  name: hk|11a1|puddincat07@Telegram
+  password: BxceQaOe
+  port: 27161
+  server: 95.40.95.57
   skip-cert-verify: true
-  sni: www.linux.com
-  type: hysteria2
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: xx|0db7|puddincat07@Telegram
-  network: tcp
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v9.hdacd.com
-  ws-path: /
+- name: xx|5a6b|puddincat07@Telegram
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: trojan-483464686
   password: AE62539071
   port: 443
@@ -1096,14 +1092,6 @@ proxies:
   server: 43.201.49.96
   skip-cert-verify: false
   sni: firm-krill.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-500957038
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  skip-cert-verify: false
-  sni: www.nintendogames.net
   type: trojan
   udp: true
 - name: vless-559166042
@@ -4851,6 +4839,14 @@ proxies:
   sni: pleased-pelican.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-468154130
+  password: AE62539071
+  port: 443
+  server: game-thrush.rooster465.autos
+  skip-cert-verify: false
+  sni: game-thrush.rooster465.autos
+  type: trojan
+  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -4858,22 +4854,22 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - us|f508|puddincat07@Telegram
-  - us|b3d2|puddincat07@Telegram
   - de|8097|puddincat07@Telegram
+  - us|b84c|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|2a14|puddincat07@Telegram
+  - xx|c122|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - us|4896|puddincat07@Telegram
+  - us|b3d2|puddincat07@Telegram
   - us|cc28|puddincat07@Telegram
   - us|2220|puddincat07@Telegram
   - us|e9fc|puddincat07@Telegram
-  - us|2a14|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
   - us|9165|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9f71|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
   - xx|8008|puddincat07@Telegram
-  - nl|7363|puddincat07@Telegram
-  - xx|0db7|puddincat07@Telegram
+  - hk|11a1|puddincat07@Telegram
+  - xx|5a6b|puddincat07@Telegram
   - trojan-483464686
   - trojan-483470687
   - vless-468906031
@@ -4962,7 +4958,6 @@ proxy-groups:
   - trojan-501276426
   - trojan-483644863
   - trojan-501276484
-  - trojan-500957038
   - vless-559166042
   - vless-482895640
   - vless-548660339
@@ -5358,27 +5353,28 @@ proxy-groups:
   - trojan-538662767
   - trojan-468154150
   - trojan-468154094
+  - trojan-468154130
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
-  - us|f508|puddincat07@Telegram
-  - us|b3d2|puddincat07@Telegram
   - de|8097|puddincat07@Telegram
+  - us|b84c|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|2a14|puddincat07@Telegram
+  - xx|c122|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - us|4896|puddincat07@Telegram
+  - us|b3d2|puddincat07@Telegram
   - us|cc28|puddincat07@Telegram
   - us|2220|puddincat07@Telegram
   - us|e9fc|puddincat07@Telegram
-  - us|2a14|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
   - us|9165|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9f71|puddincat07@Telegram
-  - us|b395|puddincat07@Telegram
-  - us|b84c|puddincat07@Telegram
   - xx|8008|puddincat07@Telegram
-  - nl|7363|puddincat07@Telegram
-  - xx|0db7|puddincat07@Telegram
+  - hk|11a1|puddincat07@Telegram
+  - xx|5a6b|puddincat07@Telegram
   - trojan-483464686
   - trojan-483470687
   - vless-468906031
@@ -5467,7 +5463,6 @@ proxy-groups:
   - trojan-501276426
   - trojan-483644863
   - trojan-501276484
-  - trojan-500957038
   - vless-559166042
   - vless-482895640
   - vless-548660339
@@ -5863,5 +5858,6 @@ proxy-groups:
   - trojan-538662767
   - trojan-468154150
   - trojan-468154094
+  - trojan-468154130
 rules:
 - MATCH,PROXY
