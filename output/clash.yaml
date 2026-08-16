@@ -4,6 +4,13 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
+- cipher: aes-256-cfb
+  name: fr|7adc|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 15.237.189.197
+  type: ss
+  udp: true
 - alpn:
   - h3
   congestion-controller: bbr
@@ -34,6 +41,20 @@ proxies:
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /assignment
 - client-fingerprint: chrome
+  name: xx|8008|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: us|b395|puddincat07@Telegram
   network: ws
   password: humanity
@@ -49,56 +70,11 @@ proxies:
         Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: us|4896|puddincat07@Telegram
+  name: us|2220|puddincat07@Telegram
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.44
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|9f71|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|cc28|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.246
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: xx|c122|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.speedtest.org
+  server: 172.67.149.60
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -106,26 +82,7 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: us|2a14|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.221.242
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: us|b84c|puddincat07@Telegram
@@ -158,19 +115,34 @@ proxies:
         Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: us|2220|puddincat07@Telegram
+  name: us|4896|puddincat07@Telegram
   network: ws
   password: humanity
   port: '443'
-  server: 172.67.149.60
+  server: 104.16.174.44
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|9f71|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: xx|9b26|puddincat07@Telegram
@@ -188,33 +160,19 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: us|b3d2|puddincat07@Telegram
+  name: us|e9fc|puddincat07@Telegram
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.7.70
+  server: 104.21.46.3
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: xx|8008|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: us|b4ce|puddincat07@Telegram
@@ -231,20 +189,54 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: us|e9fc|puddincat07@Telegram
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: us|2a14|puddincat07@Telegram
   network: ws
   password: humanity
   port: '443'
-  server: 104.21.46.3
+  server: 172.67.221.242
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|f508|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|b3d2|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /assignment
 - name: hysteria2-419356360
   password: STYyftThFn
@@ -260,12 +252,12 @@ proxies:
   skip-cert-verify: true
   sni: css.rbxcdn.com
   type: hysteria2
-- name: hysteria2-467980788
+- name: hysteria2-540983040
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.89
   skip-cert-verify: true
-  sni: https://t.me/clashv8🇨🇳
+  sni: ''
   type: hysteria2
 - name: hysteria2-467420662
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -316,20 +308,20 @@ proxies:
   server: 142.4.216.225
   type: ss
   udp: true
+- name: trojan-490358409
+  password: AE62539071
+  port: 443
+  server: 18.183.109.172
+  skip-cert-verify: true
+  sni: well-jennet.rooster465.autos
+  type: trojan
+  udp: true
 - name: trojan-463728960
   password: AE62539071
   port: 443
   server: polished-imp.rooster465.autos
   skip-cert-verify: false
   sni: polished-imp.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-500369269
-  password: AE62539071
-  port: 443
-  server: 13.158.135.118
-  skip-cert-verify: false
-  sni: literate-cow.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-583580181
@@ -401,6 +393,19 @@ proxies:
   type: vless
   udp: true
   uuid: 98944209-4d92-41b2-9c24-c5ac17b3b493
+- client-fingerprint: chrome
+  name: vless-501276502
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HsoG0C19O-NY_EcFpK0ybZv9lFol0MjDJLzjDzWAGXs
+    short-id: d79d3dc3816c329d
+  server: 35.187.156.27
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b8ca2900-3ed7-4b58-970e-060d0a6cbf99
 - alterId: 0
   cipher: auto
   name: vmess-145260
@@ -479,6 +484,46 @@ proxies:
   server: 176.32.71.250
   skip-cert-verify: true
   sni: helpful-possum.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-490358404
+  password: AE62539071
+  port: 443
+  server: 13.158.137.73
+  skip-cert-verify: true
+  sni: novel-bat.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-500369269
+  password: AE62539071
+  port: 443
+  server: 13.158.135.118
+  skip-cert-verify: false
+  sni: literate-cow.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-490358410
+  password: AE62539071
+  port: 443
+  server: 18.183.140.61
+  skip-cert-verify: true
+  sni: harmless-imp.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-490359403
+  password: AE62539071
+  port: 443
+  server: 54.249.34.120
+  skip-cert-verify: false
+  sni: social-mutt.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-490358407
+  password: AE62539071
+  port: 443
+  server: 13.231.232.184
+  skip-cert-verify: false
+  sni: better-molly.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-468076258
@@ -679,14 +724,6 @@ proxies:
   server: gorgeous-hookworm.rooster465.autos
   skip-cert-verify: false
   sni: gorgeous-hookworm.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-494616406
-  password: AE62539071
-  port: 443
-  server: 54.249.34.120
-  skip-cert-verify: true
-  sni: social-mutt.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-453062273
@@ -1121,6 +1158,14 @@ proxies:
   server: upward-yak.rooster465.autos
   skip-cert-verify: true
   sni: upward-yak.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-490358405
+  password: AE62539071
+  port: 443
+  server: 13.230.118.96
+  skip-cert-verify: false
+  sni: real-werewolf.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-481458168
@@ -1901,6 +1946,22 @@ proxies:
   sni: premium-weevil.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-530546985
+  password: AE62539071
+  port: 443
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: true
+  sni: helpful-possum.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-530546979
+  password: AE62539071
+  port: 443
+  server: engaged-ram.rooster465.autos
+  skip-cert-verify: true
+  sni: engaged-ram.rooster465.autos
+  type: trojan
+  udp: true
 - name: trojan-569256230
   password: FH72359861
   port: 443
@@ -1955,6 +2016,14 @@ proxies:
   server: helping-shark.rooster465.autos
   skip-cert-verify: false
   sni: helping-shark.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-530390449
+  password: FH72359861
+  port: 443
+  server: steady-prawn.rooster465.autos
+  skip-cert-verify: false
+  sni: steady-prawn.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-567351157
@@ -2013,6 +2082,14 @@ proxies:
   sni: devoted-heron.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-490358411
+  password: AE62539071
+  port: 443
+  server: 3.38.191.182
+  skip-cert-verify: true
+  sni: saved-ghoul.rooster465.autos
+  type: trojan
+  udp: true
 - name: trojan-496077356
   password: AE62539071
   port: 443
@@ -2027,6 +2104,22 @@ proxies:
   server: precise-locust.rooster465.autos
   skip-cert-verify: false
   sni: ''
+  type: trojan
+  udp: true
+- name: trojan-530388452
+  password: FH72359861
+  port: 443
+  server: magical-airedale.rooster465.autos
+  skip-cert-verify: false
+  sni: magical-airedale.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-513825983
+  password: AE62539071
+  port: 443
+  server: 43.203.203.244
+  skip-cert-verify: false
+  sni: main-whippet.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-461629129
@@ -2075,6 +2168,14 @@ proxies:
   server: polished-katydid.rooster465.autos
   skip-cert-verify: true
   sni: polished-katydid.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-513825962
+  password: AE62539071
+  port: 443
+  server: 13.124.185.220
+  skip-cert-verify: false
+  sni: prepared-monitor.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-538662754
@@ -2405,14 +2506,6 @@ proxies:
   sni: ''
   type: trojan
   udp: true
-- name: trojan-455296616
-  password: AE62539071
-  port: 443
-  server: 3.38.191.182
-  skip-cert-verify: false
-  sni: saved-ghoul.rooster465.autos
-  type: trojan
-  udp: true
 - name: trojan-264865662
   password: ND91608427
   port: 443
@@ -2515,19 +2608,6 @@ proxies:
   type: vless
   udp: true
   uuid: 19bb341c-ee57-4899-b1e7-e9d3ebdf23df
-- client-fingerprint: chrome
-  name: vless-266998489
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HsoG0C19O-NY_EcFpK0ybZv9lFol0MjDJLzjDzWAGXs
-    short-id: d79d3dc3816c329d
-  server: 35.187.156.27
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b8ca2900-3ed7-4b58-970e-060d0a6cbf99
 - name: vless-335141355
   network: raw
   port: 59216
@@ -2946,12 +3026,12 @@ proxies:
   skip-cert-verify: true
   sni: vpn-us-003.fastervpn.world
   type: hysteria2
-- name: hysteria2-602149042
-  password: f056b41dc9f2b516e333738d1345a6be46a8ca80a3870ffe
-  port: 443
-  server: n.nl.cleanersaz.help
-  skip-cert-verify: true
-  sni: n.nl.cleanersaz.help
+- name: hysteria2-589844095
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 46.229.243.131
+  skip-cert-verify: false
+  sni: grape-turbo-fr.roxa.org
   type: hysteria2
 - cipher: aes-256-gcm
   name: shadowsocks-604410652
@@ -3051,26 +3131,20 @@ proxies:
   server: 82.38.31.10
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: shadowsocks-601493054
-  password: 72553320ae6bcc8f
-  port: 10910
-  server: 212.192.15.46
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-603274249
-  password: XAjdrbIIANK4mvT0r2uKLcGC9ZNSxr2GtY5X7STG/jI=
-  port: 51570
-  server: e1.cover20.ir
-  type: ss
-  udp: true
 - name: trojan-601502201
   password: AE62539071
   port: 443
   server: central-jawfish.rooster465.autos
   skip-cert-verify: true
   sni: ''
+  type: trojan
+  udp: true
+- name: trojan-530547000
+  password: AE62539071
+  port: 443
+  server: proper-mouse.rooster465.autos
+  skip-cert-verify: true
+  sni: proper-mouse.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-474779666
@@ -3081,10 +3155,18 @@ proxies:
   sni: proper-mouse.rooster465.autos
   type: trojan
   udp: true
-- name: trojan-453054127
+- name: trojan-530546996
   password: AE62539071
   port: 443
-  server: helpful-possum.rooster465.autos
+  server: pleased-pelican.rooster465.autos
+  skip-cert-verify: true
+  sni: pleased-pelican.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-598021953
+  password: FH72359861
+  port: 443
+  server: great-wasp.rooster465.autos
   skip-cert-verify: true
   sni: ''
   type: trojan
@@ -3097,12 +3179,12 @@ proxies:
   sni: needed-gelding.rooster465.autos
   type: trojan
   udp: true
-- name: trojan-453054124
+- name: trojan-530546995
   password: AE62539071
   port: 443
-  server: engaged-ram.rooster465.autos
+  server: picked-guinea.rooster465.autos
   skip-cert-verify: true
-  sni: ''
+  sni: picked-guinea.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-474779587
@@ -3113,20 +3195,20 @@ proxies:
   sni: whole-grub.rooster465.autos
   type: trojan
   udp: true
-- name: trojan-387650549
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: false
-  sni: t11.qifei.app
-  type: trojan
-  udp: true
 - name: trojan-487212346
   password: AE62539071
   port: 443
   server: social-mutt.rooster465.autos
   skip-cert-verify: true
   sni: ''
+  type: trojan
+  udp: true
+- name: trojan-530390447
+  password: FH72359861
+  port: 443
+  server: settled-camel.rooster465.autos
+  skip-cert-verify: false
+  sni: settled-camel.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-583579157
@@ -3175,14 +3257,6 @@ proxies:
   server: 52.199.134.162
   skip-cert-verify: true
   sni: modest-pup.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-602159046
-  password: FH72359861
-  port: 443
-  server: 13.231.162.10
-  skip-cert-verify: true
-  sni: united-sculpin.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-461629125
@@ -3821,19 +3895,6 @@ proxies:
   udp: true
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - client-fingerprint: chrome
-  name: vless-602167044
-  network: tcp
-  port: 8686
-  reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: 628b3c90c98ead4f
-  server: 52.79.240.164
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-569551893
   network: raw
@@ -3847,16 +3908,6 @@ proxies:
   type: vless
   udp: true
   uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- name: vless-488085276
-  network: ws
-  port: 8443
-  server: 172.64.157.48
-  servername: hongkong.11459178.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
 - client-fingerprint: chrome
   name: vless-608609365
   network: grpc
@@ -3884,6 +3935,13 @@ proxies:
   type: vless
   udp: true
   uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
+- name: vless-490372403
+  network: ws
+  port: 80
+  server: 170.114.46.6
+  type: vless
+  udp: true
+  uuid: 4093e0fe-939d-41a8-95c1-395728cbbd93
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-496804961
@@ -3926,19 +3984,6 @@ proxies:
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- client-fingerprint: firefox
-  name: vless-589844193
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: -yJaCCGsucUDEnTTn6VJJyF0R5ZLlJAVNeIXFJYSGn8
-    short-id: 361c68748712c743
-  server: centraleurope.koexp.ru
-  servername: centraleurope.koexp.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 896002a8-3afc-49e6-8fac-5129fb717b49
 - client-fingerprint: ios
   flow: xtls-rprx-vision
   name: vless-593807022
@@ -4014,20 +4059,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7e5964d036b843ff885b86c4d3bfd466
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: vless-589844178
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: eng3.helper-internet.com
-  servername: eng3.helper-internet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
 - name: vless-270685468
   network: raw
   port: 60771
@@ -4048,20 +4079,6 @@ proxies:
   type: vless
   udp: true
   uuid: bb742567-ec51-4956-9d3d-099e1a4d48c4
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: vless-589844133
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
-    short-id: 82f5d3a1e9c0b661
-  server: 85.155.226.75
-  servername: getsavesafe.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - name: vless-607548075
   network: tcp
   port: 989
@@ -4069,6 +4086,20 @@ proxies:
   type: vless
   udp: true
   uuid: e974639e-951d-4284-903d-c0712b11c8fe
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-591344879
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: eng3.helper-internet.com
+  servername: eng3.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-494488364
@@ -4083,6 +4114,20 @@ proxies:
   type: vless
   udp: true
   uuid: 316dda83-17f1-4f29-a05f-b84b7f991b82
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-513851967
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -nB-tCeZ4Zr72ArHUKnbUphbs4PlBS6iId6PkrPQQTE
+    short-id: 84f9881951050a30
+  server: uk2.levikogjgfdd.ir
+  servername: gb1.murhost.network
+  tls: true
+  type: vless
+  udp: true
+  uuid: a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac
 - flow: xtls-rprx-vision
   name: vless-413085575
   network: tcp
@@ -4279,17 +4324,6 @@ proxies:
   udp: true
   uuid: b8794f67-80d9-4124-8fc5-2d2ce5516573
 - flow: xtls-rprx-vision
-  name: vless-590456409
-  network: tcp
-  port: 443
-  server: 194.24.161.133
-  servername: fr133.mechvpn.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- flow: xtls-rprx-vision
   name: vless-332701820
   network: tcp
   port: 443
@@ -4313,20 +4347,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-600119035
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 144.31.168.24
-  servername: eu-central.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: vless-524396789
@@ -4364,17 +4384,6 @@ proxies:
   type: vless
   udp: true
   uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
-- flow: xtls-rprx-vision
-  name: vless-598012638
-  network: tcp
-  port: 443
-  server: 82.38.4.126
-  servername: de126.mechvpn.online
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-309205523
@@ -4457,6 +4466,13 @@ proxies:
   skip-cert-verify: true
   sni: 193-122-104-200.liao.kdns.fr
   type: hysteria2
+- name: hysteria2-589844073
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 151.247.197.253
+  skip-cert-verify: true
+  sni: 151.247.197.253
+  type: hysteria2
 - name: hysteria2-474574783
   password: 553e3253-c454-431d-a7e6-42bc06ea5e14
   port: 8443
@@ -4471,12 +4487,12 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: hysteria2
-- name: hysteria2-589844095
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.131
-  skip-cert-verify: false
-  sni: grape-turbo-fr.roxa.org
+- name: hysteria2-513817959
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: 144.31.234.58
+  skip-cert-verify: true
+  sni: nl1.noesissite.ru
   type: hysteria2
 - name: hysteria2-589844057
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
@@ -4583,53 +4599,6 @@ proxies:
   server: 82.38.31.214
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: shadowsocks-16136
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.181
-  type: ss
-  udp: true
-- name: trojan-201299290
-  password: tsuchiya
-  port: 443
-  server: 161.34.39.108
-  skip-cert-verify: true
-  sni: aa.ccmusic.jp
-  type: trojan
-  udp: true
-- name: trojan-122310
-  password: tsuchiya
-  port: 443
-  server: aa.ccmusic.jp
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  udp: true
-- name: trojan-468154073
-  password: AE62539071
-  port: 443
-  server: 13.230.97.36
-  skip-cert-verify: false
-  sni: known-albacore.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-598573252
-  password: FH72359861
-  port: 443
-  server: steady-prawn.rooster465.autos
-  skip-cert-verify: false
-  sni: steady-prawn.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-589127226
-  password: FH72359861
-  port: 443
-  server: 54.248.168.53
-  skip-cert-verify: true
-  sni: emerging-porpoise.rooster465.autos
-  type: trojan
-  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -4637,25 +4606,25 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - fr|7adc|puddincat07@Telegram
   - de|8097|puddincat07@Telegram
   - us|7ca3|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|b395|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9f71|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|2a14|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|b84c|puddincat07@Telegram
   - us|9165|puddincat07@Telegram
-  - us|2220|puddincat07@Telegram
+  - us|4896|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
   - xx|9b26|puddincat07@Telegram
-  - us|b3d2|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|b4ce|puddincat07@Telegram
   - us|e9fc|puddincat07@Telegram
+  - us|b4ce|puddincat07@Telegram
+  - us|2a14|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|b3d2|puddincat07@Telegram
   - hysteria2-419356360
   - hysteria2-459503008
-  - hysteria2-467980788
+  - hysteria2-540983040
   - hysteria2-467420662
   - shadowsocks-591157343
   - shadowsocks-218
@@ -4663,8 +4632,8 @@ proxy-groups:
   - shadowsocks-468218487
   - shadowsocks-211
   - shadowsocks-487917493
+  - trojan-490358409
   - trojan-463728960
-  - trojan-500369269
   - trojan-583580181
   - trojan-481458160
   - trojan-481458165
@@ -4673,6 +4642,7 @@ proxy-groups:
   - trojan-481457668
   - trojan-280979827
   - vless-395875280
+  - vless-501276502
   - vmess-145260
   - hysteria2-474576634
   - shadowsocks-157
@@ -4684,6 +4654,11 @@ proxy-groups:
   - shadowsocks-465806702
   - shadowsocks-10992
   - trojan-474779612
+  - trojan-490358404
+  - trojan-500369269
+  - trojan-490358410
+  - trojan-490359403
+  - trojan-490358407
   - trojan-468076258
   - trojan-583580186
   - trojan-481457671
@@ -4709,7 +4684,6 @@ proxy-groups:
   - trojan-453062270
   - trojan-461629128
   - trojan-453179865
-  - trojan-494616406
   - trojan-453062273
   - trojan-322592226
   - trojan-461629131
@@ -4757,6 +4731,7 @@ proxy-groups:
   - trojan-455384636
   - trojan-548637489
   - trojan-474782686
+  - trojan-490358405
   - trojan-481458168
   - trojan-461629133
   - trojan-583580184
@@ -4840,6 +4815,8 @@ proxy-groups:
   - trojan-498395708
   - trojan-481458171
   - trojan-474779707
+  - trojan-530546985
+  - trojan-530546979
   - trojan-569256230
   - trojan-474779589
   - trojan-406334568
@@ -4847,6 +4824,7 @@ proxy-groups:
   - trojan-526954631
   - trojan-481458175
   - trojan-583580187
+  - trojan-530390449
   - trojan-567351157
   - trojan-474782630
   - trojan-583580183
@@ -4854,14 +4832,18 @@ proxy-groups:
   - trojan-461629132
   - trojan-461629126
   - trojan-264886062
+  - trojan-490358411
   - trojan-496077356
   - trojan-538662781
+  - trojan-530388452
+  - trojan-513825983
   - trojan-461629129
   - trojan-268441904
   - trojan-302283443
   - trojan-474782641
   - trojan-538662770
   - trojan-474782635
+  - trojan-513825962
   - trojan-538662754
   - trojan-538662786
   - trojan-461629139
@@ -4903,7 +4885,6 @@ proxy-groups:
   - trojan-485687776
   - trojan-313165062
   - trojan-453179896
-  - trojan-455296616
   - trojan-264865662
   - trojan-264886107
   - trojan-481458182
@@ -4915,7 +4896,6 @@ proxy-groups:
   - vless-552641947
   - vless-549947446
   - vless-598010639
-  - vless-266998489
   - vless-335141355
   - vless-197483120
   - vless-210548477
@@ -4951,7 +4931,7 @@ proxy-groups:
   - hysteria2-547757558
   - hysteria2-474576783
   - hysteria2-412872197
-  - hysteria2-602149042
+  - hysteria2-589844095
   - shadowsocks-604410652
   - shadowsocks-195
   - shadowsocks-155
@@ -4966,23 +4946,22 @@ proxy-groups:
   - shadowsocks-192
   - shadowsocks-487917495
   - shadowsocks-274
-  - shadowsocks-601493054
-  - shadowsocks-603274249
   - trojan-601502201
+  - trojan-530547000
   - trojan-474779666
-  - trojan-453054127
+  - trojan-530546996
+  - trojan-598021953
   - trojan-584658859
-  - trojan-453054124
+  - trojan-530546995
   - trojan-474779587
-  - trojan-387650549
   - trojan-487212346
+  - trojan-530390447
   - trojan-583579157
   - trojan-583580178
   - trojan-474779586
   - trojan-474779585
   - trojan-595835703
   - trojan-481458170
-  - trojan-602159046
   - trojan-461629125
   - trojan-584658858
   - trojan-538662774
@@ -5059,15 +5038,13 @@ proxy-groups:
   - vless-590454398
   - vless-589844144
   - vless-12945894
-  - vless-602167044
   - vless-569551893
-  - vless-488085276
   - vless-608609365
   - vless-593868023
+  - vless-490372403
   - vless-496804961
   - vless-589844158
   - vless-262814486
-  - vless-589844193
   - vless-593807022
   - vless-608559160
   - vless-608559192
@@ -5075,12 +5052,12 @@ proxy-groups:
   - vless-2335561
   - vless-415022107
   - vless-51336384
-  - vless-589844178
   - vless-270685468
   - vless-429870183
-  - vless-589844133
   - vless-607548075
+  - vless-591344879
   - vless-494488364
+  - vless-513851967
   - vless-413085575
   - vless-589844176
   - vless-412913198
@@ -5096,14 +5073,11 @@ proxy-groups:
   - vless-86611003
   - vless-306408263
   - vless-115095951
-  - vless-590456409
   - vless-332701820
   - vless-552625950
-  - vless-600119035
   - vless-524396789
   - vless-552625949
   - vless-524382787
-  - vless-598012638
   - vless-309205523
   - vless-605429691
   - vmess-2387903
@@ -5113,9 +5087,10 @@ proxy-groups:
   - hysteria2-547757563
   - hysteria2-547757557
   - hysteria2-553326953
+  - hysteria2-589844073
   - hysteria2-474574783
   - hysteria2-487303202
-  - hysteria2-589844095
+  - hysteria2-513817959
   - hysteria2-589844057
   - hysteria2-487928994
   - shadowsocks-156
@@ -5131,36 +5106,30 @@ proxy-groups:
   - shadowsocks-56693562
   - shadowsocks-171
   - shadowsocks-11032
-  - shadowsocks-16136
-  - trojan-201299290
-  - trojan-122310
-  - trojan-468154073
-  - trojan-598573252
-  - trojan-589127226
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
+  - fr|7adc|puddincat07@Telegram
   - de|8097|puddincat07@Telegram
   - us|7ca3|puddincat07@Telegram
+  - xx|8008|puddincat07@Telegram
   - us|b395|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|9f71|puddincat07@Telegram
-  - us|cc28|puddincat07@Telegram
-  - xx|c122|puddincat07@Telegram
-  - us|2a14|puddincat07@Telegram
+  - us|2220|puddincat07@Telegram
   - us|b84c|puddincat07@Telegram
   - us|9165|puddincat07@Telegram
-  - us|2220|puddincat07@Telegram
+  - us|4896|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
   - xx|9b26|puddincat07@Telegram
-  - us|b3d2|puddincat07@Telegram
-  - xx|8008|puddincat07@Telegram
-  - us|b4ce|puddincat07@Telegram
   - us|e9fc|puddincat07@Telegram
+  - us|b4ce|puddincat07@Telegram
+  - us|2a14|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - us|b3d2|puddincat07@Telegram
   - hysteria2-419356360
   - hysteria2-459503008
-  - hysteria2-467980788
+  - hysteria2-540983040
   - hysteria2-467420662
   - shadowsocks-591157343
   - shadowsocks-218
@@ -5168,8 +5137,8 @@ proxy-groups:
   - shadowsocks-468218487
   - shadowsocks-211
   - shadowsocks-487917493
+  - trojan-490358409
   - trojan-463728960
-  - trojan-500369269
   - trojan-583580181
   - trojan-481458160
   - trojan-481458165
@@ -5178,6 +5147,7 @@ proxy-groups:
   - trojan-481457668
   - trojan-280979827
   - vless-395875280
+  - vless-501276502
   - vmess-145260
   - hysteria2-474576634
   - shadowsocks-157
@@ -5189,6 +5159,11 @@ proxy-groups:
   - shadowsocks-465806702
   - shadowsocks-10992
   - trojan-474779612
+  - trojan-490358404
+  - trojan-500369269
+  - trojan-490358410
+  - trojan-490359403
+  - trojan-490358407
   - trojan-468076258
   - trojan-583580186
   - trojan-481457671
@@ -5214,7 +5189,6 @@ proxy-groups:
   - trojan-453062270
   - trojan-461629128
   - trojan-453179865
-  - trojan-494616406
   - trojan-453062273
   - trojan-322592226
   - trojan-461629131
@@ -5262,6 +5236,7 @@ proxy-groups:
   - trojan-455384636
   - trojan-548637489
   - trojan-474782686
+  - trojan-490358405
   - trojan-481458168
   - trojan-461629133
   - trojan-583580184
@@ -5345,6 +5320,8 @@ proxy-groups:
   - trojan-498395708
   - trojan-481458171
   - trojan-474779707
+  - trojan-530546985
+  - trojan-530546979
   - trojan-569256230
   - trojan-474779589
   - trojan-406334568
@@ -5352,6 +5329,7 @@ proxy-groups:
   - trojan-526954631
   - trojan-481458175
   - trojan-583580187
+  - trojan-530390449
   - trojan-567351157
   - trojan-474782630
   - trojan-583580183
@@ -5359,14 +5337,18 @@ proxy-groups:
   - trojan-461629132
   - trojan-461629126
   - trojan-264886062
+  - trojan-490358411
   - trojan-496077356
   - trojan-538662781
+  - trojan-530388452
+  - trojan-513825983
   - trojan-461629129
   - trojan-268441904
   - trojan-302283443
   - trojan-474782641
   - trojan-538662770
   - trojan-474782635
+  - trojan-513825962
   - trojan-538662754
   - trojan-538662786
   - trojan-461629139
@@ -5408,7 +5390,6 @@ proxy-groups:
   - trojan-485687776
   - trojan-313165062
   - trojan-453179896
-  - trojan-455296616
   - trojan-264865662
   - trojan-264886107
   - trojan-481458182
@@ -5420,7 +5401,6 @@ proxy-groups:
   - vless-552641947
   - vless-549947446
   - vless-598010639
-  - vless-266998489
   - vless-335141355
   - vless-197483120
   - vless-210548477
@@ -5456,7 +5436,7 @@ proxy-groups:
   - hysteria2-547757558
   - hysteria2-474576783
   - hysteria2-412872197
-  - hysteria2-602149042
+  - hysteria2-589844095
   - shadowsocks-604410652
   - shadowsocks-195
   - shadowsocks-155
@@ -5471,23 +5451,22 @@ proxy-groups:
   - shadowsocks-192
   - shadowsocks-487917495
   - shadowsocks-274
-  - shadowsocks-601493054
-  - shadowsocks-603274249
   - trojan-601502201
+  - trojan-530547000
   - trojan-474779666
-  - trojan-453054127
+  - trojan-530546996
+  - trojan-598021953
   - trojan-584658859
-  - trojan-453054124
+  - trojan-530546995
   - trojan-474779587
-  - trojan-387650549
   - trojan-487212346
+  - trojan-530390447
   - trojan-583579157
   - trojan-583580178
   - trojan-474779586
   - trojan-474779585
   - trojan-595835703
   - trojan-481458170
-  - trojan-602159046
   - trojan-461629125
   - trojan-584658858
   - trojan-538662774
@@ -5564,15 +5543,13 @@ proxy-groups:
   - vless-590454398
   - vless-589844144
   - vless-12945894
-  - vless-602167044
   - vless-569551893
-  - vless-488085276
   - vless-608609365
   - vless-593868023
+  - vless-490372403
   - vless-496804961
   - vless-589844158
   - vless-262814486
-  - vless-589844193
   - vless-593807022
   - vless-608559160
   - vless-608559192
@@ -5580,12 +5557,12 @@ proxy-groups:
   - vless-2335561
   - vless-415022107
   - vless-51336384
-  - vless-589844178
   - vless-270685468
   - vless-429870183
-  - vless-589844133
   - vless-607548075
+  - vless-591344879
   - vless-494488364
+  - vless-513851967
   - vless-413085575
   - vless-589844176
   - vless-412913198
@@ -5601,14 +5578,11 @@ proxy-groups:
   - vless-86611003
   - vless-306408263
   - vless-115095951
-  - vless-590456409
   - vless-332701820
   - vless-552625950
-  - vless-600119035
   - vless-524396789
   - vless-552625949
   - vless-524382787
-  - vless-598012638
   - vless-309205523
   - vless-605429691
   - vmess-2387903
@@ -5618,9 +5592,10 @@ proxy-groups:
   - hysteria2-547757563
   - hysteria2-547757557
   - hysteria2-553326953
+  - hysteria2-589844073
   - hysteria2-474574783
   - hysteria2-487303202
-  - hysteria2-589844095
+  - hysteria2-513817959
   - hysteria2-589844057
   - hysteria2-487928994
   - shadowsocks-156
@@ -5636,11 +5611,5 @@ proxy-groups:
   - shadowsocks-56693562
   - shadowsocks-171
   - shadowsocks-11032
-  - shadowsocks-16136
-  - trojan-201299290
-  - trojan-122310
-  - trojan-468154073
-  - trojan-598573252
-  - trojan-589127226
 rules:
 - MATCH,PROXY
