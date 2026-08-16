@@ -25,25 +25,6 @@ proxies:
   udp: true
   udp-relay-mode: native
   uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: us|2a14|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.221.242
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /assignment
 - client-fingerprint: chrome
   name: us|4896|puddincat07@Telegram
   network: ws
@@ -238,6 +219,25 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: us|2a14|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /assignment
 - cipher: aes-256-gcm
   name: shadowsocks-591157343
@@ -4652,7 +4652,6 @@ proxy-groups:
   proxies:
   - fr|7adc|puddincat07@Telegram
   - de|8097|puddincat07@Telegram
-  - us|2a14|puddincat07@Telegram
   - us|4896|puddincat07@Telegram
   - xx|c122|puddincat07@Telegram
   - us|f508|puddincat07@Telegram
@@ -4666,6 +4665,7 @@ proxy-groups:
   - us|b4ce|puddincat07@Telegram
   - us|cc28|puddincat07@Telegram
   - us|9165|puddincat07@Telegram
+  - us|2a14|puddincat07@Telegram
   - shadowsocks-591157343
   - shadowsocks-487917493
   - trojan-483464686
@@ -5157,7 +5157,6 @@ proxy-groups:
   - DIRECT
   - fr|7adc|puddincat07@Telegram
   - de|8097|puddincat07@Telegram
-  - us|2a14|puddincat07@Telegram
   - us|4896|puddincat07@Telegram
   - xx|c122|puddincat07@Telegram
   - us|f508|puddincat07@Telegram
@@ -5171,6 +5170,7 @@ proxy-groups:
   - us|b4ce|puddincat07@Telegram
   - us|cc28|puddincat07@Telegram
   - us|9165|puddincat07@Telegram
+  - us|2a14|puddincat07@Telegram
   - shadowsocks-591157343
   - shadowsocks-487917493
   - trojan-483464686
