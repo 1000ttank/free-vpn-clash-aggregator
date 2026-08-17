@@ -2227,6 +2227,22 @@ proxies:
   sni: moral-cow.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-652375263
+  password: HC04361579
+  port: 443
+  server: eminent-lamb.rooster465.autos
+  skip-cert-verify: true
+  sni: eminent-lamb.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-652375259
+  password: HC04361579
+  port: 443
+  server: enough-lamb.rooster465.autos
+  skip-cert-verify: true
+  sni: enough-lamb.rooster465.autos
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-549947446
@@ -2576,18 +2592,6 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
-  name: vmess-645328532
-  network: ws
-  port: 443
-  server: ce0gedpxwou6cqon.v.3dns.vip
-  servername: ''
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-- alterId: 0
-  cipher: auto
   name: vmess-16083
   network: tcp
   port: 22324
@@ -2632,19 +2636,19 @@ proxies:
   skip-cert-verify: true
   sni: 207.56.227.226
   type: hysteria2
-- name: hysteria2-645328517
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8443
-  server: tw1.459292.xyz
-  skip-cert-verify: true
-  sni: tw1.459292.xyz
-  type: hysteria2
 - name: hysteria2-646349309
   password: bc751c4c5c80f17dfbc05785c368b613
   port: 50160
   server: 154.31.115.179
   skip-cert-verify: true
   sni: 154-31-115-179.liao.kdns.fr
+  type: hysteria2
+- name: hysteria2-652726871
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: hy2.123266.xyz
+  skip-cert-verify: false
+  sni: ''
   type: hysteria2
 - name: hysteria2-270671465
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -2749,6 +2753,13 @@ proxies:
   password: B79tSVplYH4Rma0rnnSZ7usTaUAieZwT
   port: 443
   server: 201.24.118.126
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-652321673
+  password: tunnel-fbrof
+  port: 8444
+  server: 193.124.46.134
   type: ss
   udp: true
 - name: trojan-646403473
@@ -3085,6 +3096,22 @@ proxies:
   server: integral-quetzal.rooster465.autos
   skip-cert-verify: false
   sni: integral-quetzal.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-652753277
+  password: FH72359861
+  port: 443
+  server: massive-ocelot.rooster465.autos
+  skip-cert-verify: false
+  sni: massive-ocelot.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-652751278
+  password: PQ05174892
+  port: 443
+  server: viable-serval.rooster465.autos
+  skip-cert-verify: false
+  sni: viable-serval.rooster465.autos
   type: trojan
   udp: true
 - name: trojan-455384647
@@ -3439,6 +3466,30 @@ proxies:
   sni: precious-stag.rooster465.autos
   type: trojan
   udp: true
+- name: trojan-651878724
+  password: 8ea8d6f0-e617-11ef-90c6-1239d0255272
+  port: 443
+  server: 51.38.65.155
+  skip-cert-verify: true
+  sni: uk1.test3.net
+  type: trojan
+  udp: true
+- name: trojan-652375261
+  password: FH72359861
+  port: 443
+  server: sterling-fowl.rooster465.autos
+  skip-cert-verify: true
+  sni: sterling-fowl.rooster465.autos
+  type: trojan
+  udp: true
+- name: trojan-652375260
+  password: FH72359861
+  port: 443
+  server: adapting-giraffe.rooster465.autos
+  skip-cert-verify: true
+  sni: adapting-giraffe.rooster465.autos
+  type: trojan
+  udp: true
 - name: trojan-650316314
   password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
   port: 443
@@ -3467,6 +3518,19 @@ proxies:
   type: vless
   udp: true
   uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+- client-fingerprint: chrome
+  name: vless-652482797
+  network: grpc
+  port: 10039
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: 686c0ef0
+  server: 13.212.89.97
+  servername: d1.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
 - name: vless-545946631
   network: ws
   port: 443
@@ -3477,6 +3541,13 @@ proxies:
   type: vless
   udp: true
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: vless-652424955
+  network: ws
+  port: 80
+  server: 104.129.167.4
+  type: vless
+  udp: true
+  uuid: 424fa201-3f94-479e-b533-d5257cf9a207
 - name: vless-646349341
   network: tcp
   port: 10000
@@ -4178,6 +4249,15 @@ proxies:
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - alterId: 0
   cipher: auto
+  name: vmess-652375205
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
   name: vmess-649002652
   network: raw
   port: 33443
@@ -4212,13 +4292,6 @@ proxies:
   server: 13.125.214.225
   skip-cert-verify: true
   sni: vpn-kr-003.fastervpn.world
-  type: hysteria2
-- name: hysteria2-645328519
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 30001
-  server: tw06.459292.xyz
-  skip-cert-verify: true
-  sni: tw06.459292.xyz
   type: hysteria2
 - name: hysteria2-408149659
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -4275,6 +4348,20 @@ proxies:
   server: 13.212.75.123
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+- name: hysteria2-652726893
+  password: 085178e12d2211ec
+  port: 8445
+  server: nl.prisma-access.club
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+- name: hysteria2-652726663
+  password: ed77b662dbdf1a817d5eb75ae940cac4
+  port: 50160
+  server: 198-46-188-116.liao.kdns.fr
+  skip-cert-verify: false
+  sni: ''
   type: hysteria2
 - cipher: aes-128-gcm
   name: shadowsocks-195
@@ -4487,94 +4574,6 @@ proxies:
   server: winning-shrimp.rooster465.autos
   skip-cert-verify: true
   sni: winning-shrimp.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646404930
-  password: FH72359861
-  port: 443
-  server: 13.114.140.183
-  skip-cert-verify: true
-  sni: included-hedgehog.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646404928
-  password: FH72359861
-  port: 443
-  server: 13.114.100.100
-  skip-cert-verify: true
-  sni: pleased-sawfly.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646406406
-  password: FH72359861
-  port: 443
-  server: alert-redfish.rooster465.autos
-  skip-cert-verify: true
-  sni: alert-redfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646404943
-  password: FH72359861
-  port: 443
-  server: 13.231.222.134
-  skip-cert-verify: true
-  sni: grateful-crawdad.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-496537582
-  password: AE62539071
-  port: 443
-  server: grateful-crawdad.rooster465.autos
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-  udp: true
-- name: trojan-646406423
-  password: FH72359861
-  port: 443
-  server: internal-peacock.rooster465.autos
-  skip-cert-verify: true
-  sni: internal-peacock.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646406418
-  password: FH72359861
-  port: 443
-  server: grateful-crawdad.rooster465.autos
-  skip-cert-verify: true
-  sni: grateful-crawdad.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646406422
-  password: FH72359861
-  port: 443
-  server: included-hedgehog.rooster465.autos
-  skip-cert-verify: true
-  sni: included-hedgehog.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646404931
-  password: FH72359861
-  port: 443
-  server: 13.114.70.20
-  skip-cert-verify: true
-  sni: brave-cattle.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-646406405
-  password: FH72359861
-  port: 443
-  server: actual-chicken.rooster465.autos
-  skip-cert-verify: true
-  sni: actual-chicken.rooster465.autos
-  type: trojan
-  udp: true
-- name: trojan-647031507
-  password: PQ05174892
-  port: 443
-  server: mighty-lemming.rooster465.autos
-  skip-cert-verify: false
-  sni: mighty-lemming.rooster465.autos
   type: trojan
   udp: true
 proxy-groups:
@@ -4831,6 +4830,8 @@ proxy-groups:
   - trojan-453179896
   - trojan-280979844
   - trojan-455296665
+  - trojan-652375263
+  - trojan-652375259
   - vless-549947446
   - vless-591633806
   - vless-470977878
@@ -4858,14 +4859,13 @@ proxy-groups:
   - vless-649363672
   - vmess-145129
   - vmess-2155648
-  - vmess-645328532
   - vmess-16083
   - vmess-2155649
   - vmess-16102
   - vmess-2387903
   - hysteria2-650673438
-  - hysteria2-645328517
   - hysteria2-646349309
+  - hysteria2-652726871
   - hysteria2-270671465
   - hysteria2-550821663
   - hysteria2-651117969
@@ -4881,6 +4881,7 @@ proxy-groups:
   - shadowsocks-218
   - shadowsocks-11029
   - shadowsocks-648367347
+  - shadowsocks-652321673
   - trojan-646403473
   - trojan-646344524
   - trojan-646403472
@@ -4923,6 +4924,8 @@ proxy-groups:
   - trojan-636847774
   - trojan-565918250
   - trojan-608513110
+  - trojan-652753277
+  - trojan-652751278
   - trojan-455384647
   - trojan-262786504
   - trojan-523246817
@@ -4967,10 +4970,15 @@ proxy-groups:
   - trojan-264863670
   - trojan-651033468
   - trojan-651033471
+  - trojan-651878724
+  - trojan-652375261
+  - trojan-652375260
   - trojan-650316314
   - vless-561641575
   - vless-651034434
+  - vless-652482797
   - vless-545946631
+  - vless-652424955
   - vless-646349341
   - vless-648421172
   - vless-646349335
@@ -5031,12 +5039,12 @@ proxy-groups:
   - vmess-2386854
   - vmess-360165941
   - vmess-16903
+  - vmess-652375205
   - vmess-649002652
   - hysteria2-561634420
   - hysteria2-387719581
   - hysteria2-410601280
   - hysteria2-275281729
-  - hysteria2-645328519
   - hysteria2-408149659
   - hysteria2-591633775
   - hysteria2-608511098
@@ -5045,6 +5053,8 @@ proxy-groups:
   - hysteria2-212133054
   - hysteria2-487303206
   - hysteria2-651117975
+  - hysteria2-652726893
+  - hysteria2-652726663
   - shadowsocks-195
   - shadowsocks-10899
   - shadowsocks-181
@@ -5073,17 +5083,6 @@ proxy-groups:
   - trojan-646404933
   - trojan-646406437
   - trojan-646406441
-  - trojan-646404930
-  - trojan-646404928
-  - trojan-646406406
-  - trojan-646404943
-  - trojan-496537582
-  - trojan-646406423
-  - trojan-646406418
-  - trojan-646406422
-  - trojan-646404931
-  - trojan-646406405
-  - trojan-647031507
 - name: PROXY
   type: select
   proxies:
@@ -5336,6 +5335,8 @@ proxy-groups:
   - trojan-453179896
   - trojan-280979844
   - trojan-455296665
+  - trojan-652375263
+  - trojan-652375259
   - vless-549947446
   - vless-591633806
   - vless-470977878
@@ -5363,14 +5364,13 @@ proxy-groups:
   - vless-649363672
   - vmess-145129
   - vmess-2155648
-  - vmess-645328532
   - vmess-16083
   - vmess-2155649
   - vmess-16102
   - vmess-2387903
   - hysteria2-650673438
-  - hysteria2-645328517
   - hysteria2-646349309
+  - hysteria2-652726871
   - hysteria2-270671465
   - hysteria2-550821663
   - hysteria2-651117969
@@ -5386,6 +5386,7 @@ proxy-groups:
   - shadowsocks-218
   - shadowsocks-11029
   - shadowsocks-648367347
+  - shadowsocks-652321673
   - trojan-646403473
   - trojan-646344524
   - trojan-646403472
@@ -5428,6 +5429,8 @@ proxy-groups:
   - trojan-636847774
   - trojan-565918250
   - trojan-608513110
+  - trojan-652753277
+  - trojan-652751278
   - trojan-455384647
   - trojan-262786504
   - trojan-523246817
@@ -5472,10 +5475,15 @@ proxy-groups:
   - trojan-264863670
   - trojan-651033468
   - trojan-651033471
+  - trojan-651878724
+  - trojan-652375261
+  - trojan-652375260
   - trojan-650316314
   - vless-561641575
   - vless-651034434
+  - vless-652482797
   - vless-545946631
+  - vless-652424955
   - vless-646349341
   - vless-648421172
   - vless-646349335
@@ -5536,12 +5544,12 @@ proxy-groups:
   - vmess-2386854
   - vmess-360165941
   - vmess-16903
+  - vmess-652375205
   - vmess-649002652
   - hysteria2-561634420
   - hysteria2-387719581
   - hysteria2-410601280
   - hysteria2-275281729
-  - hysteria2-645328519
   - hysteria2-408149659
   - hysteria2-591633775
   - hysteria2-608511098
@@ -5550,6 +5558,8 @@ proxy-groups:
   - hysteria2-212133054
   - hysteria2-487303206
   - hysteria2-651117975
+  - hysteria2-652726893
+  - hysteria2-652726663
   - shadowsocks-195
   - shadowsocks-10899
   - shadowsocks-181
@@ -5578,16 +5588,5 @@ proxy-groups:
   - trojan-646404933
   - trojan-646406437
   - trojan-646406441
-  - trojan-646404930
-  - trojan-646404928
-  - trojan-646406406
-  - trojan-646404943
-  - trojan-496537582
-  - trojan-646406423
-  - trojan-646406418
-  - trojan-646406422
-  - trojan-646404931
-  - trojan-646406405
-  - trojan-647031507
 rules:
 - MATCH,PROXY
