@@ -4,13 +4,23 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: xx|0f02|puddincat07@Telegram
-  password: 5t6i121em5lkmsmk
-  port: 46977
-  server: ca001.zestapp778.com
-  skip-cert-verify: false
-  sni: ca001.zestapp778.com
-  type: trojan
+- cipher: aes-256-gcm
+  name: nl|1cc0|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.36
+  type: ss
+- cipher: chacha20-ietf
+  name: nl|3eaa|puddincat07@Telegram
+  obfs: tls1.2_ticket_auth
+  obfsparam: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocolparam: ''
+  server: 109.104.153.43
+  type: ssr
+  udp: true
 - cipher: aes-256-gcm
   name: nl|8e6f|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -18,10 +28,22 @@ proxies:
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
+  name: nl|2d27|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.99
+  type: ss
+- cipher: aes-256-gcm
   name: nl|f92b|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
+  type: ss
+- cipher: aes-256-gcm
+  name: nl|5013|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
   name: nl|e1f5|puddincat07@Telegram
@@ -36,6 +58,12 @@ proxies:
   server: 202.50.253.45
   type: ss
 - cipher: aes-256-gcm
+  name: nl|6a01|puddincat07@Telegram
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+- cipher: aes-256-gcm
   name: nl|bc46|puddincat07@Telegram
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
@@ -47,37 +75,6 @@ proxies:
   port: 19999
   server: 202.50.253.81
   type: ss
-- cipher: aes-256-gcm
-  name: nl|1cc0|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.36
-  type: ss
-- cipher: aes-256-gcm
-  name: nl|5013|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.90
-  type: ss
-- cipher: aes-256-gcm
-  name: nl|2d27|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.99
-  type: ss
-- name: xx|2125|puddincat07@Telegram
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20123
-  server: sclass-00.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- cipher: aes-256-gcm
-  name: nl|6a01|puddincat07@Telegram
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 202.50.253.18
-  type: ss
 - name: xx|c3b8|puddincat07@Telegram
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
@@ -86,6 +83,13 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
+- name: xx|2125|puddincat07@Telegram
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20123
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
 - name: us|81b9|puddincat07@Telegram
   password: None
   port: 38182
@@ -3242,6 +3246,14 @@ proxies:
   sni: unlockyourfuturefindyourperfectcareer.com
   type: trojan
   udp: true
+- name: trojan-1947014532
+  password: 5t6i121em5lkmsmk
+  port: 46977
+  server: ca001.zestapp778.com
+  skip-cert-verify: true
+  sni: ca001.zestapp778.com
+  type: trojan
+  udp: true
 - name: trojan-1943481639
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -4669,14 +4681,6 @@ proxies:
   sni: www.trusteeforward.com
   type: trojan
   udp: true
-- name: trojan-1939844054
-  password: humanity
-  port: 443
-  server: 104.25.240.193
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -4684,19 +4688,19 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - xx|0f02|puddincat07@Telegram
+  - nl|1cc0|puddincat07@Telegram
+  - nl|3eaa|puddincat07@Telegram
   - nl|8e6f|puddincat07@Telegram
+  - nl|2d27|puddincat07@Telegram
   - nl|f92b|puddincat07@Telegram
+  - nl|5013|puddincat07@Telegram
   - nl|e1f5|puddincat07@Telegram
   - nl|468f|puddincat07@Telegram
+  - nl|6a01|puddincat07@Telegram
   - nl|bc46|puddincat07@Telegram
   - nl|b8af|puddincat07@Telegram
-  - nl|1cc0|puddincat07@Telegram
-  - nl|5013|puddincat07@Telegram
-  - nl|2d27|puddincat07@Telegram
-  - xx|2125|puddincat07@Telegram
-  - nl|6a01|puddincat07@Telegram
   - xx|c3b8|puddincat07@Telegram
+  - xx|2125|puddincat07@Telegram
   - us|81b9|puddincat07@Telegram
   - sg|9317|puddincat07@Telegram
   - us|2abc|puddincat07@Telegram
@@ -5032,6 +5036,7 @@ proxy-groups:
   - shadowsocks-1827146133
   - trojan-1930077586
   - trojan-1929965329
+  - trojan-1947014532
   - trojan-1943481639
   - trojan-1929965340
   - trojan-1940466747
@@ -5183,25 +5188,24 @@ proxy-groups:
   - trojan-1827149560
   - trojan-1857007066
   - trojan-1940455323
-  - trojan-1939844054
 - name: PROXY
   type: select
   proxies:
   - AUTO
   - DIRECT
-  - xx|0f02|puddincat07@Telegram
+  - nl|1cc0|puddincat07@Telegram
+  - nl|3eaa|puddincat07@Telegram
   - nl|8e6f|puddincat07@Telegram
+  - nl|2d27|puddincat07@Telegram
   - nl|f92b|puddincat07@Telegram
+  - nl|5013|puddincat07@Telegram
   - nl|e1f5|puddincat07@Telegram
   - nl|468f|puddincat07@Telegram
+  - nl|6a01|puddincat07@Telegram
   - nl|bc46|puddincat07@Telegram
   - nl|b8af|puddincat07@Telegram
-  - nl|1cc0|puddincat07@Telegram
-  - nl|5013|puddincat07@Telegram
-  - nl|2d27|puddincat07@Telegram
-  - xx|2125|puddincat07@Telegram
-  - nl|6a01|puddincat07@Telegram
   - xx|c3b8|puddincat07@Telegram
+  - xx|2125|puddincat07@Telegram
   - us|81b9|puddincat07@Telegram
   - sg|9317|puddincat07@Telegram
   - us|2abc|puddincat07@Telegram
@@ -5537,6 +5541,7 @@ proxy-groups:
   - shadowsocks-1827146133
   - trojan-1930077586
   - trojan-1929965329
+  - trojan-1947014532
   - trojan-1943481639
   - trojan-1929965340
   - trojan-1940466747
@@ -5688,6 +5693,5 @@ proxy-groups:
   - trojan-1827149560
   - trojan-1857007066
   - trojan-1940455323
-  - trojan-1939844054
 rules:
 - MATCH,PROXY
